@@ -18,8 +18,12 @@ buttons.forEach(function(button){
         body.style.backgroundColor=e.target.id
     }
     if (e.target.id=='purple'){
-        body.style.backgroundColor="red"
+        body.style.backgroundColor=e.target.id
     }
+    if (e.target.id=='pink'){
+        body.style.backgroundColor="pink"
+    }
+    
     
     
 
